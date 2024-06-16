@@ -1,0 +1,35 @@
+body {
+  background-color: chocolate;
+}
+
+.slider_container {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slider_container .slider {
+  display: flex;
+}
+.slider_container .slider img {
+  max-width: 100%;
+}
+.slider_container .js_btn_prev,
+.slider_container .js_btn_next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 50px;
+  border: none;
+  font-size: 24px;
+}
+.slider_container .js_btn_prev.js_btn_prev,
+.slider_container .js_btn_next.js_btn_prev {
+  left: 10px;
+}
+.slider_container .js_btn_prev.js_btn_next,
+.slider_container .js_btn_next.js_btn_next {
+  right: 10px;
+}/*# sourceMappingURL=style.css.map */
